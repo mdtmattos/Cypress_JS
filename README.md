@@ -1,4 +1,4 @@
-# Automation using Cypress and JavaScrpt
+<h1 align="center">Automation using Cypress and JavaScrpt</h1>
 <p align="center">This project consists of registering a contract. Automation is done in JavaScript using Cypress as the automation framework.</p>
 
 ## Automation using Cypress and JavaScrpt
