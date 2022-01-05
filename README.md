@@ -3,6 +3,10 @@
 
 # Scripts to configure and run the tests
 
+<br> Install Node </br>
+Click on the url and download Node.js:  
+https://nodejs.org/en/download/
+
 <br> Installing Cypress </br>
 npm install cypress --save-dev
 
@@ -11,7 +15,6 @@ npm install
 
 <br>Run the test: </br>
 npm run cypress:run -- --browser chrome
-
 
 # Important folders of the project
 ## Folder: Integration
