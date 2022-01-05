@@ -3,10 +3,13 @@
 
 # Scripts to configure and run the tests
 
-Configure the project
-Run the script: npm install
+<br> Installing Cypress </br>
+npm install cypress --save-dev
 
-Run the test: 
+<br>Configure the project</br>
+npm install
+
+<br>Run the test: </br>
 npm run cypress:run -- --browser chrome
 
 
