@@ -22,7 +22,7 @@
             "name": "I access the application",
             "result": {
               "status": "passed",
-              "duration": 2926000000
+              "duration": 10299000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I login",
             "result": {
               "status": "passed",
-              "duration": 24471000000
+              "duration": 23597000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I click on Create A Contract on menu",
             "result": {
               "status": "passed",
-              "duration": 5499000000
+              "duration": 1068000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "click Fixed Rate option",
             "result": {
               "status": "passed",
-              "duration": 2025000000
+              "duration": 2077000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I fill the fields",
             "result": {
               "status": "passed",
-              "duration": 14923000000
+              "duration": 27161000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I assert if the contract was created correctly",
             "result": {
               "status": "passed",
-              "duration": 7891000000
+              "duration": 6182000000
             }
           }
         ]
