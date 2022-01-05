@@ -4,13 +4,15 @@
 </h1>
 <p align="center">This project consists of registering a contract. Automation is done in JavaScript using Cypress as the automation framework.</p>
 
+## Automation using Cypress and JavaScrpt
+Scripts to configure and run the tests
+
 Configure the project
 Run the script: npm install
 
 Run the test: 
 npm run cypress:run -- --browser chrome
 
-## Automation using Cypress and JavaScrpt
 
 ## Important folders of the project
 Folder: Integration
