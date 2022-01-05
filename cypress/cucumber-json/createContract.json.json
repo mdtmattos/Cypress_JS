@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Create a contract",
+    "line": 1,
+    "id": "create-a-contract",
+    "tags": [],
+    "uri": "createContract.feature",
+    "elements": [
+      {
+        "id": "create-a-contract;fixed-rate",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Fixed Rate",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I access the application",
+            "result": {
+              "status": "passed",
+              "duration": 2926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I login",
+            "result": {
+              "status": "passed",
+              "duration": 24471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Create A Contract on menu",
+            "result": {
+              "status": "passed",
+              "duration": 5499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "click Fixed Rate option",
+            "result": {
+              "status": "passed",
+              "duration": 2025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I fill the fields",
+            "result": {
+              "status": "passed",
+              "duration": 14923000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I assert if the contract was created correctly",
+            "result": {
+              "status": "passed",
+              "duration": 7891000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
