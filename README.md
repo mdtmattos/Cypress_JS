@@ -16,6 +16,10 @@ npm install
 <br>Run the test: </br>
 npm run cypress:run -- --browser chrome
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 52ee81e73e67e71dd095c02a138c342586f9b5fb
 # Important folders of the project
 ## Folder: Integration
 Contains the strucutures test in Gherkin
