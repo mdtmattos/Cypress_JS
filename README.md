@@ -10,7 +10,7 @@ https://nodejs.org/en/download/
 <br> Installing Cypress </br>
 npm install cypress --save-dev
 
-<br>Configure the project</br>
+<br>Install project dependencies</br>
 npm install
 
 <br>Run the test: </br>
