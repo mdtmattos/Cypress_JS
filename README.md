@@ -10,33 +10,11 @@ https://nodejs.org/en/download/
 <br> Installing Cypress </br>
 npm install cypress --save-dev
 
-<br>Configure the project</br>
+<br>Install project dependencies</br>
 npm install
 
 <br>Run the test: </br>
 npm run cypress:run -- --browser chrome
-
-# Important folders of the project
-## Folder: Integration
-Contains the strucutures test in Gherkin
-
-## Folder: INTEGRATION/createContract
-Contains the steps to run the test
-
-## Folder: Report
-Contains all tests reports
-
-## Folder: support
-Contains the elements and pageObjects of the tests
-
-# Scripts to configure and run the tests
-
-Configure the project
-Run the script: npm install
-
-Run the test: 
-npm run cypress:run -- --browser chrome
-
 
 # Important folders of the project
 ## Folder: Integration
