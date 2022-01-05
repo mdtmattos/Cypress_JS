@@ -28,8 +28,5 @@
       "filePrefix": "",
       "fileSuffix": ".json"
     }
-  },
-  "dependencies": {
-    "multiple-cucumber-html-reporter": "^1.18.3"
   }
 }
