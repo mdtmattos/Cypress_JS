@@ -1,2 +1,14 @@
 .DS_Store
 node_modules/*
+allure-*
+cypress/.DS_Store
+cypress/screenshots/
+cypress/cucumber-json/
+cypress/videos/
+cypress/results/
+cypress/downloads/
+node_modules/
+results/
+test-results/
+yarn-error.log
+url-reports/

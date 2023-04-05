@@ -1,0 +1,56 @@
+npm verb cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+npm info using npm@8.19.3
+npm info using node@v18.13.0
+npm timing npm:load:whichnode Completed in 0ms
+npm timing config:load:defaults Completed in 2ms
+npm timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 2ms
+npm timing config:load:builtin Completed in 2ms
+npm timing config:load:cli Completed in 2ms
+npm timing config:load:env Completed in 1ms
+npm timing config:load:file:D:\Development\cypress\Dashboard\tmpBstackPackages\.npmrc Completed in 0ms
+npm timing config:load:project Completed in 8ms
+npm timing config:load:file:C:\Users\muril\.npmrc Completed in 0ms
+npm timing config:load:user Completed in 1ms
+npm timing config:load:file:C:\Users\muril\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+npm timing config:load:global Completed in 0ms
+npm timing config:load:validate Completed in 0ms
+npm timing config:load:credentials Completed in 1ms
+npm timing config:load:setEnvs Completed in 1ms
+npm timing config:load Completed in 18ms
+npm timing npm:load:configload Completed in 18ms
+npm timing npm:load:mkdirpcache Completed in 0ms
+npm timing npm:load:mkdirplogs Completed in 0ms
+npm verb title npm install
+npm verb argv "install" "--legacy-peer-deps" "--loglevel" "verbose"
+npm timing npm:load:setTitle Completed in 1ms
+npm timing config:load:flatten Completed in 3ms
+npm timing npm:load:display Completed in 6ms
+npm verb logfile logs-max:10 dir:C:\Users\muril\AppData\Local\npm-cache\_logs
+npm verb logfile C:\Users\muril\AppData\Local\npm-cache\_logs\2023-02-03T21_58_30_073Z-debug-0.log
+npm timing npm:load:logFile Completed in 7ms
+npm timing npm:load:timers Completed in 0ms
+npm timing npm:load:configScope Completed in 0ms
+npm timing npm:load Completed in 33ms
+npm timing arborist:ctor Completed in 0ms
+npm timing idealTree Completed in 3ms
+npm timing command:install Completed in 13ms
+npm verb stack TypeError: must provide string spec
+npm verb stack     at new Edge (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\edge.js:51:13)
+npm verb stack     at [_loadDepType] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\node.js:887:9)
+npm verb stack     at [Arborist.Node._loadDeps] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\node.js:876:25)
+npm verb stack     at new Node (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\node.js:256:20)
+npm verb stack     at [rootNodeFromPackage] (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:389:18)
+npm verb cwd D:\Development\cypress\Dashboard\tmpBstackPackages
+npm verb Windows_NT 10.0.22621
+npm verb node v18.13.0
+npm verb npm  v8.19.3
+npm ERR! must provide string spec
+npm verb exit 1
+npm timing npm Completed in 175ms
+npm verb unfinished npm timer reify 1675461510235
+npm verb unfinished npm timer reify:loadTrees 1675461510240
+npm verb unfinished npm timer idealTree:init 1675461510241
+npm verb code 1
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\muril\AppData\Local\npm-cache\_logs\2023-02-03T21_58_30_073Z-debug-0.log

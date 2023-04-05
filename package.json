@@ -1,23 +1,25 @@
 {
-  "name": "JSCypressTest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:run": "cypress run ",
-    "postcypress:run": "node ./cypress/support/cucumber-html-reporter.js",
-    "cy:open": "cypress open",
-    "cy:openTest": "cypress open --env environment=test",
-    "cy:run": "cypress run --browser=chrome"
+    "cy:test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open --env allure=true",
+    "cy:run": "cypress run --env allure=true",
+    "allure-report-generate": "allure generate allure-results --clean && allure open allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cucumber-html-reporter": "^5.5.0",
-    "cypress": "^7.5.0",
-    "cypress-cucumber-preprocessor": "^4.1.2"
+    "@cucumber/cucumber": "^8.10.0",
+    "@faker-js/faker": "^6.0.0-alpha.5",
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "allure-commandline": "^2.20.1",
+    "cypress": "^12.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-cucumber-tagging": "^1.0.3",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-localstorage-commands": "^2.1.0",
+    "cypress-upload-file": "^1.0.6",
+    "faker": "^5.5.3"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,

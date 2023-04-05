@@ -1,28 +1,65 @@
 /// <reference types="Cypress" />
 
-import MainElements from '../elements/main.elements'
+import MainElements from '../../support/elements/main.elements'
+import LoginPageObjects from '../../support/pages/login.po'
 
-const mainElements = new MainElements()
+const mainElements = new MainElements
+const loginPageObjects = new LoginPageObjects
 
-const urlLogin = "https://app.deel.training/login"
-const urlApp = 'https://app.deel.training/'
-const emailAddress = "mdtmattos@gmail.com"
-const password = "123456789@Mtjl"
+const url = "https://www.demoblaze.com/"
+const userName = "Murilo_TestAutomation"
+const password = "test_123456"
 
-class MainPageObjects {
+class MainPageObjects { 
     accessApplication(){
-        cy.visit(urlLogin);
+        cy.visit(url);
     }
 
     login(){
-        mainElements.fieldEmail().type(emailAddress);
-        mainElements.fieldPassword().type(password);
-        mainElements.btnLogin().click();
+        loginPageObjects.inputUsername(userName);
+        loginPageObjects.inputPassword(password);
+    }    
+
+    clickSignUpMenu(){
+        mainElements.signUpMenu().click();
     }
 
-    waitLoad(){
-        mainElements.load().should('be.visible');
+    clickLoginMenu(){
+        mainElements.logInMenu().click();
+    }
+
+    clickLogoutMenu(){
+        mainElements.logoutMenu().click();
+    }
+
+    clickAboutMenu(){
+        mainElements.aboutUsMenu().click();
+    }
+
+    clickContactMenu(){
+        mainElements.contactMenu().click();
+    }
+
+    clickCartMenu(){
+        mainElements.cartMenu().click();
+    }
+
+    assertLoginMenu(){
+        mainElements.logInMenu().should('be.visible');
+    }
+
+    assertWindowsAlert(message){
+        cy.on('window:alert', (str) => {
+            expect(str).to.equal(message)
+          })
+    }
+
+    assertNameOfUser(){
+        mainElements.nameOfUser().should('contain', "Welcome " + userName)
+    }
+
+    waitSeconds(seconds){
+        cy.wait(seconds)
     }
 }
-
 export default MainPageObjects

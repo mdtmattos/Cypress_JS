@@ -1,23 +1,47 @@
 class MainElements {
-    fieldEmail() {
-        return cy.get('[name=email]').should('be.visible');
+    
+    signUpMenu() {
+        return cy.get('a[id="signin2"]');
     }
 
-    fieldPassword() {
-        return cy.get('[name=password]');
+    logInMenu() {
+        return cy.get('a[id="login2"]');
     }
 
-    btnLogin() {
-        return cy.get('button[type="submit"]');
+    cartMenu() {
+        return cy.get('a[id="cartur"]');
     }
 
-    deelLogo() {
-        return cy.get('div[class="logo"]');
+    aboutUsMenu() {
+        return cy.contains('a', "About us");
     }
 
-    load() {
-        return cy.get('div[class="spinner"]');
+    contactMenu() {
+        return cy.contains('a', "Contact");
+    }
+
+    logoutMenu() {
+        return cy.get('a[onclick="logOut()"]');
+    }
+
+    homeMenu() {
+        return cy.get('ul[class="class="navbar-nav ml-auto"]').find('li').first();
+    }
+
+    nameOfUser() {
+        return cy.get('a[id="nameofuser"]');
+    }
+
+    phonesCategory() {
+        return cy.contains('a', 'Phones');
+    }
+
+    laptopsCategory() {
+        return cy.contains('a', 'Laptops');
+    }
+
+    monitorsCategory() {
+        return cy.contains('a', 'Monitors');
     }
 }
-
 export default MainElements
