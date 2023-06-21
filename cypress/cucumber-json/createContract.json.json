@@ -22,7 +22,7 @@
             "name": "I access the application",
             "result": {
               "status": "passed",
-              "duration": 10299000000
+              "duration": 1350000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I login",
             "result": {
               "status": "passed",
-              "duration": 23597000000
+              "duration": 7102000000
             }
           },
           {
@@ -41,8 +41,9 @@
             "line": 6,
             "name": "I click on Create A Contract on menu",
             "result": {
-              "status": "passed",
-              "duration": 1068000000
+              "status": "failed",
+              "duration": 4059000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Create A Contract' but never did.\n    at CreateContractElements.createContractOptions (cypress/support/elements/createContract.elements.js:3:18)\n    at CreateContractPageObjects.clickCreateAContract (cypress/support/pages/createContract.po.js:9:31)\n    at Context.eval (cypress/integration/createContract/createContract.js:23:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -51,8 +52,7 @@
             "line": 7,
             "name": "click Fixed Rate option",
             "result": {
-              "status": "passed",
-              "duration": 2077000000
+              "status": "skipped"
             }
           },
           {
@@ -61,8 +61,7 @@
             "line": 8,
             "name": "I fill the fields",
             "result": {
-              "status": "passed",
-              "duration": 27161000000
+              "status": "skipped"
             }
           },
           {
@@ -71,8 +70,7 @@
             "line": 9,
             "name": "I assert if the contract was created correctly",
             "result": {
-              "status": "passed",
-              "duration": 6182000000
+              "status": "skipped"
             }
           }
         ]
