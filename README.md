@@ -1,5 +1,3 @@
-# TheoremOne - Test Automation Engineer
-
 ## Introduction
 Test automation in order to verify and test the application https://www.demoblaze.com/ using Cypress as a framework along with cucumber to specify test cases and structure in gherkin for better understanding, Javascript as language and Allure as report.<br />
 
